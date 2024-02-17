@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5811AB3E2B2FF0BC007EEB05 /* RemainingTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811AB3D2B2FF0BC007EEB05 /* RemainingTimeView.swift */; };
+		5811AB402B2FF27F007EEB05 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5811AB3F2B2FF27F007EEB05 /* TimerView.swift */; };
+		5864A4742B38F1B8002A5404 /* PreferencesEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864A4732B38F1B8002A5404 /* PreferencesEditor.swift */; };
+		5864A4762B38F2F5002A5404 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5864A4752B38F2F5002A5404 /* Preferences.swift */; };
 		58AEF3D12B2E56DE00708F88 /* OpenPomodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF3D02B2E56DE00708F88 /* OpenPomodoroApp.swift */; };
 		58AEF3D32B2E56DE00708F88 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF3D22B2E56DE00708F88 /* ContentView.swift */; };
 		58AEF3D52B2E56DF00708F88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AEF3D42B2E56DF00708F88 /* Assets.xcassets */; };
@@ -14,6 +18,15 @@
 		58AEF3E22B2E56DF00708F88 /* OpenPomodoroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF3E12B2E56DF00708F88 /* OpenPomodoroTests.swift */; };
 		58AEF3EC2B2E56DF00708F88 /* OpenPomodoroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF3EB2B2E56DF00708F88 /* OpenPomodoroUITests.swift */; };
 		58AEF3EE2B2E56DF00708F88 /* OpenPomodoroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF3ED2B2E56DF00708F88 /* OpenPomodoroUITestsLaunchTests.swift */; };
+		58AEF3FF2B2E707B00708F88 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF3FE2B2E707B00708F88 /* CircularProgressView.swift */; };
+		58AEF4032B2EA23F00708F88 /* PomodoroTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF4022B2EA23F00708F88 /* PomodoroTimer.swift */; };
+		58AEF4052B2EA2C500708F88 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF4042B2EA2C500708F88 /* ModelData.swift */; };
+		58B469D12B4AA9B600671389 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B469D02B4AA9B600671389 /* Constants.swift */; };
+		58BCC9AB2B3B55720034771B /* StatsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCC9AA2B3B55720034771B /* StatsContainer.swift */; };
+		58BCC9AD2B3B65940034771B /* SessionStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCC9AC2B3B65940034771B /* SessionStatsView.swift */; };
+		58BCC9AF2B3C950B0034771B /* PreferencesBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCC9AE2B3C950B0034771B /* PreferencesBar.swift */; };
+		58BCC9B12B3E2B070034771B /* SessionParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BCC9B02B3E2B070034771B /* SessionParameter.swift */; };
+		58D4E3662B3ED7D900E30562 /* ValueSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D4E3652B3ED7D900E30562 /* ValueSliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5811AB3D2B2FF0BC007EEB05 /* RemainingTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainingTimeView.swift; sourceTree = "<group>"; };
+		5811AB3F2B2FF27F007EEB05 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		5864A4732B38F1B8002A5404 /* PreferencesEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesEditor.swift; sourceTree = "<group>"; };
+		5864A4752B38F2F5002A5404 /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		58AEF3CD2B2E56DE00708F88 /* OpenPomodoro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenPomodoro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AEF3D02B2E56DE00708F88 /* OpenPomodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenPomodoroApp.swift; sourceTree = "<group>"; };
 		58AEF3D22B2E56DE00708F88 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,15 @@
 		58AEF3E72B2E56DF00708F88 /* OpenPomodoroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenPomodoroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AEF3EB2B2E56DF00708F88 /* OpenPomodoroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenPomodoroUITests.swift; sourceTree = "<group>"; };
 		58AEF3ED2B2E56DF00708F88 /* OpenPomodoroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenPomodoroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58AEF3FE2B2E707B00708F88 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		58AEF4022B2EA23F00708F88 /* PomodoroTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimer.swift; sourceTree = "<group>"; };
+		58AEF4042B2EA2C500708F88 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		58B469D02B4AA9B600671389 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		58BCC9AA2B3B55720034771B /* StatsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsContainer.swift; sourceTree = "<group>"; };
+		58BCC9AC2B3B65940034771B /* SessionStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStatsView.swift; sourceTree = "<group>"; };
+		58BCC9AE2B3C950B0034771B /* PreferencesBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesBar.swift; sourceTree = "<group>"; };
+		58BCC9B02B3E2B070034771B /* SessionParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionParameter.swift; sourceTree = "<group>"; };
+		58D4E3652B3ED7D900E30562 /* ValueSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueSliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +97,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5811AB3C2B2FF04F007EEB05 /* CircularTimer */ = {
+			isa = PBXGroup;
+			children = (
+				58AEF3FE2B2E707B00708F88 /* CircularProgressView.swift */,
+				5811AB3D2B2FF0BC007EEB05 /* RemainingTimeView.swift */,
+				5811AB3F2B2FF27F007EEB05 /* TimerView.swift */,
+			);
+			path = CircularTimer;
+			sourceTree = "<group>";
+		};
+		5864A4722B38F148002A5404 /* Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				5864A4732B38F1B8002A5404 /* PreferencesEditor.swift */,
+				58BCC9AE2B3C950B0034771B /* PreferencesBar.swift */,
+			);
+			path = Preferences;
+			sourceTree = "<group>";
+		};
 		58AEF3C42B2E56DE00708F88 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +140,9 @@
 			isa = PBXGroup;
 			children = (
 				58AEF3D02B2E56DE00708F88 /* OpenPomodoroApp.swift */,
+				58AEF3FD2B2E705200708F88 /* Model */,
+				58AEF3FC2B2E704200708F88 /* Resources */,
+				58AEF3FB2B2E6FF300708F88 /* Views */,
 				58AEF3D22B2E56DE00708F88 /* ContentView.swift */,
 				58AEF3D42B2E56DF00708F88 /* Assets.xcassets */,
 				58AEF3D62B2E56DF00708F88 /* Preview Content */,
@@ -125,6 +173,53 @@
 				58AEF3ED2B2E56DF00708F88 /* OpenPomodoroUITestsLaunchTests.swift */,
 			);
 			path = OpenPomodoroUITests;
+			sourceTree = "<group>";
+		};
+		58AEF3FB2B2E6FF300708F88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58D4E3642B3ED7B300E30562 /* ValueSlider */,
+				58BCC9A92B3B548B0034771B /* SessionStats */,
+				5864A4722B38F148002A5404 /* Preferences */,
+				5811AB3C2B2FF04F007EEB05 /* CircularTimer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		58AEF3FC2B2E704200708F88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		58AEF3FD2B2E705200708F88 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				58AEF4022B2EA23F00708F88 /* PomodoroTimer.swift */,
+				58AEF4042B2EA2C500708F88 /* ModelData.swift */,
+				5864A4752B38F2F5002A5404 /* Preferences.swift */,
+				58BCC9B02B3E2B070034771B /* SessionParameter.swift */,
+				58B469D02B4AA9B600671389 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		58BCC9A92B3B548B0034771B /* SessionStats */ = {
+			isa = PBXGroup;
+			children = (
+				58BCC9AA2B3B55720034771B /* StatsContainer.swift */,
+				58BCC9AC2B3B65940034771B /* SessionStatsView.swift */,
+			);
+			path = SessionStats;
+			sourceTree = "<group>";
+		};
+		58D4E3642B3ED7B300E30562 /* ValueSlider */ = {
+			isa = PBXGroup;
+			children = (
+				58D4E3652B3ED7D900E30562 /* ValueSliderView.swift */,
+			);
+			path = ValueSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +352,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5811AB402B2FF27F007EEB05 /* TimerView.swift in Sources */,
+				58BCC9B12B3E2B070034771B /* SessionParameter.swift in Sources */,
+				58BCC9AB2B3B55720034771B /* StatsContainer.swift in Sources */,
+				58AEF3FF2B2E707B00708F88 /* CircularProgressView.swift in Sources */,
 				58AEF3D32B2E56DE00708F88 /* ContentView.swift in Sources */,
+				58B469D12B4AA9B600671389 /* Constants.swift in Sources */,
+				58D4E3662B3ED7D900E30562 /* ValueSliderView.swift in Sources */,
+				5864A4742B38F1B8002A5404 /* PreferencesEditor.swift in Sources */,
+				58BCC9AD2B3B65940034771B /* SessionStatsView.swift in Sources */,
+				58BCC9AF2B3C950B0034771B /* PreferencesBar.swift in Sources */,
+				58AEF4052B2EA2C500708F88 /* ModelData.swift in Sources */,
 				58AEF3D12B2E56DE00708F88 /* OpenPomodoroApp.swift in Sources */,
+				5811AB3E2B2FF0BC007EEB05 /* RemainingTimeView.swift in Sources */,
+				58AEF4032B2EA23F00708F88 /* PomodoroTimer.swift in Sources */,
+				5864A4762B38F2F5002A5404 /* Preferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
